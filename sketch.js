@@ -15,7 +15,7 @@ function preload()
 function setup()
 {
   
-  createCanvas( 400, 400 ,WEBGL);
+  createCanvas( 800, 500 ,WEBGL);
   slider = createSlider( 1, 10, 5, 1);
   slidertxt = createP('Y numbers:'+slider.value());
   slidertxt.position( 10, 10);
